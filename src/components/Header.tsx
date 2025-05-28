@@ -1,5 +1,5 @@
-import React from "react";
 import { Lightbulb } from "lucide-react";
+import { GitHubStarsButton } from "./github-stars";
 
 const Header = () => {
   return (
@@ -25,6 +25,11 @@ const Header = () => {
               Build AI prompts like Lego blocks ✨
             </p>
           </div>
+
+          <GitHubStarsButton
+            username={`bhaveshsinghal95182`}
+            repository={`prompt-block`}
+          />
         </div>
       </div>
     </header>
